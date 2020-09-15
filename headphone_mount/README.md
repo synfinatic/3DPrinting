@@ -9,6 +9,8 @@ shelf space to store them.  Hence I created this wall mount for headphones.
 The design is (mostly) parametric so I was able to create different sizes of mounts
 based on the width of the headband.  I include STL files with 40mm to 70mm width.
 
+I'm using this mount with even very large & heavy headphones like my Audeze LCD-2C's
+without problems.
 
 ## Print Instructions
 
@@ -27,7 +29,7 @@ Each mount will require:
 
 ## Tips
 
-1. Throw in some desicant and a humidity sensor to ensure your filament stays dry.
+1. For heavy headphones, be sure to use the "Large" size strips.
 1. Install one half of the two Command Strips on the back of the bottom with the 
     tabs visible & facing up
 1. Install the other half of the two Command Strips on the wall where you want to

@@ -31,7 +31,7 @@ Print four (4) of:
 * 1x [Air compressor air filter](https://www.amazon.com/Filter-Replacement-compressor-STO739-03-STO739-03AU/dp/B01LZFTLLD/ref=sr_1_36)
 * 1x 4020 12V fan
 * 4x M4 x 70mm button head bolts
-* 4x M4 x 6mm wide / 6mm tall brass heat inserts [like this](https://www.aliexpress.com/item/4001258499799.html)
+* 4x M4 x 6mm wide / 6mm tall brass heat inserts 
 * 1x 5.5mmx2.1mm DC power jack [like this](https://smile.amazon.com/gp/product/B01N8VV78D/)
 
 

@@ -24,6 +24,7 @@ Each spool holdre will require:
 
 ## Tips
 
-Assemble the spool holder and tighten the four bolts just so they start to compress
+1. Throw in some desicant and a humidity sensor to ensure your filament stays dry.
+1.  Assemble the spool holder and tighten the four bolts just so they start to compress
 things and drag.  Then loosen each bolt 1/4 turn and confirm with a full spool of
 filament that it rolls smoothly.
