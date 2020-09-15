@@ -10,7 +10,7 @@ The design is (mostly) parametric so I was able to create different sizes of mou
 based on the width of the headband.  I include STL files with 40mm to 70mm width.
 
 
-## Print instructions
+## Print Instructions
 
 Print one of each top/bottom parts for the desired headphone headband width (40-70mm).
 

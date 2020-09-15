@@ -8,7 +8,7 @@ storage container which is often used as a drybox.
 Basically, this is designed to allow a maximum variety of spools (max width of 
 78mm) while being easy to print and smooth rolling.
 
-## Print instructions
+## Print Instructions
 
 You will need to print two of each part (side, brace and roller) per spool holder.
 
