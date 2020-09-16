@@ -20,3 +20,8 @@ PETG, but ABS would work fine as well.
 ## Required
 
 * 2x M6 bowdwn tube couplers
+
+## Images
+
+![top](top.png)
+![bottom](bottom.png)

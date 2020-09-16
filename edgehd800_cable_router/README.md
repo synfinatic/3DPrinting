@@ -18,3 +18,8 @@ heat/sun resistant.
 
 Just print the part and place your power and/or USB cable in the slot.
 You can use electrical tape or contact cement to hold the wires in place.
+
+## Images
+
+![top](top.png)
+![bottom](bottom.png)

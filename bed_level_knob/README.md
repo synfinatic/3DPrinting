@@ -21,3 +21,8 @@ You should be able to print a typical 3 top/bottom layers and 3 shells @ 35% inf
 
 1. Consider using a smaller [M3 knurled knob](https://www.amazon.com/dp/B01HSTVMT8/ref=dp_prsubs_1)
     to be a "lock" to prevent the knob from turning on it's own.
+
+## Images
+
+![top](top.png)
+![bottom](bottom.png)

@@ -28,3 +28,8 @@ You should be able to print a typical 3 top/bottom layers and 3 shells @ 35% inf
 1. Line up the tabs in the mount with the two small holes on the bottom of the
     hand controller and press it in.
 1. Then insert your USB cable and use a rubber band to hold it in place.
+
+## Images
+
+![front](front.png)
+![rear](rear.png)

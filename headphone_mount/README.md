@@ -40,3 +40,14 @@ Each mount will require:
 1. Install the headphones on the wall- you should hear the M3 Command Strips "clip"
     together
 
+## Images
+
+Renders:
+
+![render1](render1.png)
+![render2](render2.png)
+
+Front:
+![front](front.jpeg)
+Side:
+![side](side.jpeg)
