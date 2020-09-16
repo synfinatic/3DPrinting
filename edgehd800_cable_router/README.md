@@ -23,3 +23,4 @@ You can use electrical tape or contact cement to hold the wires in place.
 
 ![top](top.png)
 ![bottom](bottom.png)
+![example](example.jpeg)

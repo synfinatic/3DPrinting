@@ -38,3 +38,4 @@ filament that it rolls smoothly.
 ![top](top.png)
 ![bottom](bottom.png)
 ![exploded](exploded.png)
+![example](example.jpeg)
