@@ -25,7 +25,7 @@ Each mount will require:
 
 * 2x 3M Command Strips size medium or large
 * 1x M3 x 12 bolt
-* 1x M3 x 5mm wide / 4-6mm deep heat insert [like this](https://www.aliexpress.com/item/4001258499799.html)
+* 1x M3 x 5mm wide / 4-6mm deep brass heat insert
 
 ## Tips
 
