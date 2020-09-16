@@ -40,8 +40,12 @@ other people provided those files so I don't need to rely on tools like
 Many of my designs utilize brass heat inserts for interfacing with bolts as they
 simplify the design and provide a high quality connection which resists stripping.
 I highly suggest using high quality brass heat inserts designed to resist both
-twisting and pulling out [like this](https://www.aliexpress.com/item/4001258499799.html).
-Sadly, it is very hard to find distributors in the USA who carry these inserts.
+twisting and pulling out like this:
+
+![heatinsert](heatinsert.png)
+
+Sadly, it is very hard to find distributors in the USA who carry these inserts,
+but [you can find them on AliExpress](https://www.aliexpress.com/item/4001258499799.html).
 
 ## License
 
