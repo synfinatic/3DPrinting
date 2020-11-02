@@ -43,7 +43,7 @@ tools like [Meshmixer](https://www.meshmixer.com) to make modifications.
 
 * [Boundary Fan Mount](Astronomy/BoundaryFanMount/) - Custom boundary fan for my StarMaster 12.5" ETL
 * [Celestron Evolution 8 Foot](Astronomy/CelestronEvo8Foot/) - Mount for aftermarket feet for the Celestron Evolution 8 mount
-* [Celestron USB Handcontroller Cable Holder](Astronomy/CelstronUSBCableMgmt/) - Keep your USB cable from falling out
+* [Celestron USB Handcontroller Cable Holder](Astronomy/CelestronUSBCableManagement/) - Keep your USB cable from falling out
 * [Celestron EdgeHD 800 Fastar Cooler](Astronomy/EdgeHD800Cooler/) - Cool down your EdgeHD 800 OTA faster
 * [Celestron EdgeHD 800 Hyperstar Cable Router](Astronomy/EdgeHD800HyperstarCableRouter/) - Avoid spikes in your images with a Hyperstar
 * [Moonlight Slide Adapter](Astronomy/MoonlightSlideAdapter/) - Custom mount for the Moonlight Slide to my UTA on the SM 12.5 ETL
@@ -60,6 +60,7 @@ tools like [Meshmixer](https://www.meshmixer.com) to make modifications.
 * [LM2596 Mount](Enclosures/LM2596Mount/) - Mount for a LM2596 board
 * [PWM Controller](Enclosure/PWMController) - Case for a cheap PWM controller
 * [Rasperry Pi 3 + Relay](Enclosures/RasPi3Relay/) - Case for a RasPi3 + Relay Board
+* [Protectli FW6 Fan Shroud](Enclosures/Protectli-FW6/) - Fan shroud for [Protectli FW6](https://protectli.com/vault-6-port/) series.
 
 ### Misc
 
