@@ -44,6 +44,8 @@ a fan with the highest static pressure (in H2O / Pa) rather than looking at raw 
 you need to be able to pull air through the air filter.
 1. For greater air flow, you can even use a 4056 "Violence Fan" if you cut the fan spacers,
 but realize these fans often require over 1Amp @ 12V.
+1. If you want to edit the F360 file, be sure to [import my custom ISO threads file](
+../../F360/README.md).
 
 ## Images
 

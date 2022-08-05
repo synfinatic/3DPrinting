@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ThreadType>
+  <Name>ISO Metric custom</Name>
+  <CustomName>ISO Metric Custom</CustomName>
+  <Unit>mm</Unit>
+  <Angle>60</Angle>
+  <SortOrder>3</SortOrder>
+  <ThreadSize>
+    <Size>65.0</Size>
+    <Designation>
+      <ThreadDesignation>M65x1.25</ThreadDesignation>
+      <CTD>M65x1.25</CTD>
+      <Pitch>1.25</Pitch>
+      <Thread>
+        <Gender>external</Gender>
+        <Class>6g</Class>
+        <MajorDia>64.866</MajorDia>
+        <PitchDia>64.0855</PitchDia>
+        <MinorDia>63.421</MinorDia>
+      </Thread>
+      <Thread>
+        <Gender>internal</Gender>
+        <Class>6H</Class>
+        <MajorDia>65.0</MajorDia>
+        <PitchDia>64.2865</PitchDia>
+        <MinorDia>63.7795</MinorDia>
+        <TapDrill>63.863</TapDrill>
+    </Thread>
+    <!--
+      <Thread>
+        <Gender>external</Gender>
+        <Class>4g6g</Class>
+        <MajorDia>64.85</MajorDia>
+        <PitchDia>63.944</PitchDia>
+        <MinorDia>63.157</MinorDia>
+      </Thread>
+-->
+    </Designation>
+  </ThreadSize>
+</ThreadType>
