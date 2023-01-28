@@ -13,7 +13,8 @@ specs.  However, I decided I wanted to do further upgrades:
  1. Add a [Nevermore](https://github.com/nevermore3d/Nevermore_Micro) carbon filter
     to deal with the VOCs from printing ABS.
  1. Add a chamber heater (TODO)
- 1. Add a bed leveling probe to allow for [bed mesh leveling](https://www.klipper3d.org/Bed_Mesh.html)
+ 1. Add a bed leveling SuperPINDA probe to allow for [bed mesh leveling](https://www.klipper3d.org/Bed_Mesh.html)
+ 1. Add support for an ADXL345 for [Resonance Tuning](https://www.klipper3d.org/Measuring_Resonances.html)
 
 I couldn't find any existing projects/hacks to upgrade the extruder/hotend so I
 decided to create my own.  I settled on the [Phaetus Dragon](https://www.phaetus.com/dragon-st/)
@@ -68,7 +69,7 @@ supports is the Top.
 
 ## Required Parts
 
- * 12 x M3x5mm heat set inserts and a soldering iron to install them
+ * M3x5mm heat set inserts and a soldering iron to install them
  * M3 SHCS bolts of various lengths 8, 12, 20 and 40mm
  * Bondtech BMG (or clone) extruder with the door on the right side
  * Phaetus/Triangle Labs Dragon hotend
@@ -84,45 +85,48 @@ supports is the Top.
 ## Optional Parts
 
  * SuperPINDA Probe
- * M8x1.0 tap
+    * M8x1.0 tap
  * An additional 3x15mm thermocouple for chamber temp sensor to connect to
     klipper or use something like a HC520 temp/humidity sensor (available from
     Amazon, Walmart, etc) which has a 4mm sensor.
+ * ADXL345 with 3mm holes spaced 15mm apart.  I just got a generic board from Amazon.
+    * 3mm plastic washers for mounting
+
 
 ## Assembly
 
 ### Required Steps
 
- 1. Install two M3 x 5mm heat set inserts into the bottom of the Top part
- 1. Install three M3 x 5mm heat set inserts [into the back](pics/heatsets_rear.jpg)
+ 1. Install 2 heatset inserts into the bottom of the Top part
+ 1. Install 3 heatset inserts [into the back](pics/heatsets_rear.jpg)
     of the Top part
- 1. Install two M3 x 5mm heat set inserts into the rear of the Rear part for
+ 1. Install 2 heatset inserts into the rear of the Rear part for
     the fan.
- 1. Install four M3 x 5mm heat set inserts [into the holes](pics/heatsets_blower.jpg)
+ 1. Install 4 heatset inserts [into the holes](pics/heatsets_blower.jpg)
     in the Fan Mount
  1. Apply gold foil tape to the Base to protect the bottom from the heat of the
     hotend.
- 1. If you are using the SuperPinda probe and do not have a M8x1.0 tap, 
+ 1. If you are using the SuperPINDA probe and do not have a M8x1.0 tap, 
     now is a good time to install that into the base.
- 1. Using some M3-8mm bolts as a guide and help with compression, align the
+ 1. Using 2 M3-8mm bolts as a guide and help with compression, align the
     Base and Top parts.  Then use cyanoacrylate glue to glue them together. Set 
     aside and let glue fully dry.
- 1. Once glue is dry, install the two M3 x 5mm heat set inserts 
+ 1. Once glue is dry, install the two heatset inserts 
     [into the side](pics/heatsets_side.jpg) of the assembly.
- 1. Use three M3-8mm bolts to attach the rear and glued assembly.
+ 1. Use 3 M3-8mm bolts to attach the rear and glued assembly.
  1. Insert the Dragon hotend through the bottom of the assembly and attach the
     Bondtech BMG extruder.  Be sure to use the appropriate length of PTFE tubing
     between the hotend and extruder!  Rotate the extruder so the label is
     facing the front of the assembly.
- 1.  Using three M3-40mm bolts, attach the NEMA17 stepper to the assembly &
+ 1.  Using 3 M3-40mm bolts, attach the NEMA17 stepper to the assembly &
     extruder.  Ensure the wires are facing up!
- 1. Using two M3-12mm bolts, attach the 4010 fan to the assembly.
- 1. Using two M3-12mm bolts, attach the assembly to your X carriage.
- 1. Using two M3-8mm bolts, attach the fan mount to the assembly
- 1. Using two M3-20mm bolts, attach the 5015 blower to the fan mount
+ 1. Using 2 M3-12mm bolts, attach the 4010 fan to the assembly.
+ 1. Using 2 M3-12mm bolts, attach the assembly to your X carriage.
+ 1. Using 2 M3-8mm bolts, attach the fan mount to the assembly
+ 1. Using 2 M3-20mm bolts, attach the 5015 blower to the fan mount
  1. Install the heater and thermocouple in the heater block and route the wires
     through the front hole
- 1. Using one M3-8mm bolt, attach the linked fan duct (linked provided above) to
+ 1. Using 1 M3-8mm bolt, attach the linked fan duct (linked provided above) to
     the assembly (recommend to use gold foil tape to protect ducts!)
  1. Verify your stepper does not make contact with the frame when homing Y axis.
  1. Verify the tab on the Rear makes contact with the X axis end stop.
@@ -134,12 +138,22 @@ doesn't over heat.
 
 ### Optional Steps
 
- 1. If installing the SuperPinda probe, use a M8x1.0 tap to clean up the printed
+#### SuperPINDA
+ 1. If installing the SuperPINDA probe, use a M8x1.0 tap to clean up the printed
     threads.  Note that this is M8x1.0 and not the more common M8x1.25!
- 1. Install the SuperPinda probe (use one lock washer and nut on the bottom).
+ 1. Install the SuperPINDA probe (use one lock washer and nut on the bottom).
     [Use an allen key](pics/pinda_probe.jpg) to ensure the probe won't touch the
-    bed.
+    bed and set the spacing.  Be sure the probe is not too high, because you
+    want to make sure it triggers before the hotend hits the bed!
+
+#### Chamber Temp Sensor
  1. If using a chamber temp sensor, you can use either a standard 3x15mm
     thermocouple like in the hotend or an external monitor like the HC520
     available on Amazon, Walmart, etc which uses a 4mm diameter sensor. Use the
     appropriate fan bracket!
+
+#### ADXL345
+ 1. If installing the ADXL345, install the 2 additional heatset inserts on 
+    the top of the assembly near the fan.
+ 1. Using some 3mm plastic washers and M3-8mm screws mount the ADXL345 towards
+    the rear so as to not interfere with the extruder door.
