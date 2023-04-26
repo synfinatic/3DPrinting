@@ -25,6 +25,8 @@ in Klipper and can use one of the open endstop connectors on the
 [Mightyboard](
 https://github.com/sciguy14/HelioWatcher/blob/master/HelioWatcher%20Circuit/MakerBot%20MightyBoard%20REVE%20Schematic.pdf).
 
+Note that the Dragon hotend can be swapped for an E3D V6 or Revo Six as they are the same format.
+
 Of course, fitting all these upgrades meant that I had to give up the 2nd extruder,
 but that was often so painful getting the two hotends perfectly level that I
 rarely ever used that feature.
