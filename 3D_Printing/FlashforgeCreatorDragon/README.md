@@ -74,7 +74,7 @@ supports is the Top.
  * M3x5mm heat set inserts and a soldering iron to install them
  * M3 SHCS bolts of various lengths 8, 12, 20 and 40mm
  * Bondtech BMG (or clone) extruder with the door on the right side
- * Phaetus/Triangle Labs Dragon hotend
+ * Phaetus/Triangle Labs Dragon or E3D V6/Revo Six hotend
  * 3x15mm thermocouple for the hotend
  * 5015 24V blower
  * 4010 24V fan (can steal one from your MK10 extruder!)
