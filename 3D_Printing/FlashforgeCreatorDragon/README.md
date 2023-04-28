@@ -53,6 +53,7 @@ You will need to print:
  * [Top.stl](Top.stl) -- requires supports
  * [Base.stl](Base.stl)
  * [Rear.stl](Rear.stl)
+ * [WireManagement.stl](WireManagement.stl) -- optional part
  * [FanMount-3mmTempSensor.stl](FanMount-3mmTempSensor.stl) or [FanMount-4mmTempSensor.stl](FanMount-4mmTempSensor.stl) -- depends
     on the diameter of the chamber temp sensor.
  * [FFCP-MonoDuct_v3_x1.stl](FFCP-MonoDuct_v3_x1.stl) -- which I took from [here](https://github.com/DrLex0/print3D-ffcp-left-cooling-duct)
